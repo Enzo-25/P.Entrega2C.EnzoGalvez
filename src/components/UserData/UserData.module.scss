@@ -1,0 +1,53 @@
+.UserData__top {
+    height: 536px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 6px 3px;
+    opacity: 1;
+}
+
+.UserData__bg {
+    background-image: url(../../assets/user-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 421px; 
+}
+
+.UserData__abs {
+    position: absolute;
+    top: 340px;
+    left: 340px;
+}
+
+.UserData__items {
+    display: flex;
+}
+
+.UserData__items img{
+    border-radius: 5px;
+    width: 160px;
+}
+
+.UserData__links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.UserData__links h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.UserData__links a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 300px;
+    gap: 10px;
+}
+
+.UserData__text {
+    display: flex;
+    justify-content: center;
+}
+

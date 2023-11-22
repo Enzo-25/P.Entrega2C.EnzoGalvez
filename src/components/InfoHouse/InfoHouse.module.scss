@@ -1,0 +1,118 @@
+.infoHouse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoHouse__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 0;
+    position: relative;
+}
+
+.top__text h1 {
+    width: 401px;
+    font-size: 28px;
+    white-space: pre-wrap;
+    font-family: Raleway;
+    font-weight: 500;
+    color: rgb(148, 206, 69);
+    line-height: 1.3;
+}
+
+.top__text p {
+    width: 401px;
+    font-size: 14px;
+    white-space: pre-wrap;
+    color: rgb(156, 156, 156);
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.top__img img{
+    z-index: 12;
+    width: 466px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 48px 0px;
+}
+
+.infoHouse__mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.mid__img {
+    padding-right: 40px;
+}
+.mid__img img{
+    width: 684px;
+    height: 480px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 48px 0px;
+}
+
+.mid__text h1{
+    width: 322px;
+    font-size: 28px;
+    white-space: pre-wrap;
+    font-family: Raleway;
+    font-weight: 500;
+    color: rgb(148, 206, 69);
+    line-height: 1.3;
+}
+
+.mid__text p {
+    width: 344px;
+    font-size: 14px;
+    white-space: pre-wrap;
+    color: rgb(156, 156, 156);
+    line-height: 1.5;
+    font-weight: 500; 
+}
+
+@media screen and (max-width: 1024px) {
+    .infoHouse__top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoHouse__mid {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .infoHouse__top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoHouse__mid {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .infoHouse__top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoHouse__mid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top__img img{
+        width: 380px;
+    }
+
+    .mid__img img{
+        width: 400px;
+    }
+}

@@ -1,0 +1,78 @@
+.infoAbout {
+   background-image: url(../../assets/infoabout-bg.jpg);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-color: rgba(255, 255, 255, 0);
+   opacity: 1;
+   z-index: 8;
+   color: white;
+   height: 612px;
+   position: relative;
+}
+
+.infoAbout::after {
+    content: '';
+    position: absolute;
+}
+
+.infoAbout__info {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.infoAbout__info h1{
+    font-size: 28px;
+    font-weight: 500;
+    width: 393.062px;
+    white-space: pre-wrap;
+    line-height: 1.3;
+}
+
+.infoAbout__info span {
+    color: #94CE45;
+}
+
+.infoAbout__info p{
+    white-space: pre-wrap;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    width: 393.062px;
+    font-family: Poppins;
+    margin-bottom: 0;
+}
+
+.infoAbout__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.infoAbout__buttonleft {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+    width: 189.75px;
+    height: 45px;
+    background: none rgb(148, 206, 69);
+    border-radius: 50px;
+    padding: 10px 20px 20px 20px;
+    cursor: pointer;
+}
+
+.infoAbout__buttonright {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+    width: 189.75px;
+    height: 45px;
+    background: none rgb(148, 206, 69);
+    border-radius: 50px;
+    padding: 10px 20px 20px 20px;
+    cursor: pointer;
+}

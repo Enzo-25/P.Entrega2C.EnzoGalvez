@@ -1,0 +1,89 @@
+.homePage{
+    background-image: url(../assets/bg-homepage.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(13, 88, 99, 0);
+    box-sizing: border-box;
+    height: 708px;
+    top: 0px;
+    opacity: 1;
+    z-index: 7;
+    color: white;
+    padding-top: 220px;
+    padding-left: 80px;
+}
+
+.homePage__info h1{
+    font-size: 48px;
+    font-weight: 600;
+    width: 500px;
+    white-space: pre-wrap;
+    line-height: 1;
+}
+
+.homePage__info span {
+    color: #94CE45;
+}
+
+.homePage__info p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    width: 300px;
+    font-family: Raleway;
+}
+
+.homePage__button {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+    width: 189.75px;
+    height: 45px;
+    background: none rgb(148, 206, 69);
+    border-radius: 50px;
+    padding: 12px 20px 20px 20px;
+    cursor: pointer;
+    transition: background 300ms ease 0s;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .homePage {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homePage {
+        width: 100%;   
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .homePage {
+        max-width: max-content;
+        padding-left: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .homePage__info h1 {
+        font-size: 35px;
+        font-weight: 500;
+        width: 425px;
+    }
+
+    .homePage__button {
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 40px;
+        width: 154.75px;
+        height: 45px;
+    }
+}
+

@@ -1,0 +1,34 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__title {
+    display: flex;
+    justify-content: center;
+    white-space: pre-wrap;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 100px;
+}
+
+.hero__filterbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 80px;
+}
+
+.hero__carousel {
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 425px) {
+    .hero__title {
+        text-align: center;
+        margin-top: 60px;
+    }
+}
